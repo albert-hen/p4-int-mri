@@ -3,9 +3,13 @@
 This repo is based off of the MRI exercise found [here](https://github.com/p4lang/tutorials/tree/master/exercises/mri).
 
 These modifications were made:
-mri.py - extended the switch trace to include timestamp and time in queue in addition to the existing switch id and queue depth
-send.py - added the extra metadata fields to the INT switch trace fields description
-receive.py - added the extra metadata fields to the INT switch trace fields description
+
+**mri.py** - extended the switch trace to include timestamp and time in queue in addition to the existing switch id and queue depth
+
+**send.py** - added the extra metadata fields to the INT switch trace fields description
+
+**receive.py** - added the extra metadata fields to the INT switch trace fields description
+
 
 How to run the experiment for the project:
 
