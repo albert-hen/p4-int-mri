@@ -1,4 +1,61 @@
-# P4 INT Demo
+# Multi-hop route inspection with in-band network telemetry in P4
+
+This repo is based off of the MRI exercise found [here](https://github.com/p4lang/tutorials/tree/master/exercises/mri).
+
+These modifications were made:
+mri.py - extended the switch trace to include timestamp and time in queue in addition to the existing switch id and queue depth
+send.py - added the extra metadata fields to the INT switch trace fields description
+receive.py - added the extra metadata fields to the INT switch trace fields description
+
+How to run the experiment for the project:
+
+1. In your shell, run:
+   ```bash
+   make
+   ```
+   This will:
+   * compile `mri.p4`, and
+   * start a Mininet instance with three switches (`s1`, `s2`, `s3`) configured
+     in a triangle. There are 5 hosts. `h1` and `h11` are connected to `s1`.
+     `h2` and `h22` are connected to `s2` and `h3` is connected to `s3`.
+   * The hosts are assigned IPs of `10.0.1.1`, `10.0.2.2`, etc
+     (`10.0.<Switchid>.<hostID>`).
+   * The control plane programs the P4 tables in each switch based on
+     `sx-runtime.json`
+
+2. We want to send a low rate traffic from `h1` to `h2` and a high
+   rate iperf traffic from `h11` to `h22`.  The link between `s1` and
+   `s2` is common between the flows and is a bottleneck because we
+   reduced its bandwidth to 512kbps in topology.json.  Therefore, if we
+   capture packets at `h2`, we should see high queue size for that
+   link.
+
+![Setup](setup.png)
+
+3. You should now see a Mininet command prompt. Open four terminals
+   for `h1`, `h11`, `h2`, `h22`, respectively:
+   ```bash
+   mininet> xterm h1 h11 h2 h22
+   ```
+3. In `h2`'s xterm, start the server that captures packets:
+   ```bash
+   ./receive.py
+   ```
+4. in `h22`'s xterm, start the iperf UDP server:
+   ```bash
+   iperf -s -u
+   ```
+
+5. In `h1`'s xterm, send one packet per second to `h2` using send.py
+   say for 30 seconds we use tee to collect the output telemetry data:
+   ```bash
+   ./send.py 10.0.2.2 "P4 is cool" 60 | tee output.txt
+   ```
+   The message "P4 is cool" should be received in `h2`'s xterm,
+6. After 15 seconds, in `h11`'s xterm, start iperf client sending for 30 seconds
+   ```bash
+   iperf -c 10.0.2.22 -t 30 -u
+   ```
 
 
 ## P4 Documentation
@@ -10,15 +67,6 @@ All excercises in this repository use the v1model architecture, the documentatio
 2. The include file `v1model.p4` has extensive comments and can be accessed [here](https://github.com/p4lang/p4c/blob/master/p4include/v1model.p4).
 
 ## Obtaining required software
-
-If you are starting this tutorial at one of the proctored tutorial events,
-then we've already provided you with a virtual machine that has all of
-the required software installed. Ask an instructor for a USB stick with
-the VM image.
-
-Otherwise, to complete the exercises, you will need to either build a
-virtual machine or install several dependencies.
-
 
 ### To build the virtual machine
 
