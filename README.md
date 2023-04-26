@@ -10,10 +10,11 @@ These modifications were made:
 
 **receive.py** - added the extra metadata fields to the INT switch trace fields description
 
-
 How to run the experiment for the project:
 
-1. In your shell, run:
+First start the VM by following the "Obtaining required software" section in this readme.
+
+1. In the shell in the VM, run:
    ```bash
    make
    ```
@@ -51,7 +52,7 @@ How to run the experiment for the project:
    ```
 
 5. In `h1`'s xterm, send one packet per second to `h2` using send.py
-   say for 30 seconds we use tee to collect the output telemetry data:
+   for 60 seconds; we use tee to collect the output telemetry data:
    ```bash
    ./send.py 10.0.2.2 "P4 is cool" 60 | tee output.txt
    ```
@@ -60,13 +61,13 @@ How to run the experiment for the project:
    ```bash
    iperf -c 10.0.2.22 -t 30 -u
    ```
-
+The data in output.txt was then parsed and vizualized as found in the report.
 
 ## P4 Documentation
 
 The documentation for P4_16 and P4Runtime is available [here](https://p4.org/specs/)
 
-All excercises in this repository use the v1model architecture, the documentation for which is available at:
+This repository uses the v1model architecture, the documentation for which is available at:
 1. The BMv2 Simple Switch target document accessible [here](https://github.com/p4lang/behavioral-model/blob/master/docs/simple_switch.md) talks mainly about the v1model architecture.
 2. The include file `v1model.p4` has extensive comments and can be accessed [here](https://github.com/p4lang/p4c/blob/master/p4include/v1model.p4).
 
