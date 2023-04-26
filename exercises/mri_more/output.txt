@@ -1,0 +1,2113 @@
+sniffing on eth0
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 155
+      |   |  timestamp = 151033399
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 37
+      |   |  timestamp = 151627072
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 41
+      |   |  timestamp = 152080593
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 40
+      |   |  timestamp = 152671343
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 46
+      |   |  timestamp = 153117161
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 73
+      |   |  timestamp = 153711579
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 59
+      |   |  timestamp = 154161759
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 72
+      |   |  timestamp = 154755838
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 53
+      |   |  timestamp = 155195219
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 59
+      |   |  timestamp = 155788783
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 44
+      |   |  timestamp = 156249421
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 87
+      |   |  timestamp = 156843593
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 35
+      |   |  timestamp = 157285328
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 47
+      |   |  timestamp = 157880041
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 37
+      |   |  timestamp = 158326437
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 58
+      |   |  timestamp = 158920937
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 37
+      |   |  timestamp = 159365278
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 48
+      |   |  timestamp = 159959969
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 83
+      |   |  timestamp = 160427338
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 80
+      |   |  timestamp = 161021725
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 37
+      |   |  timestamp = 161477444
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 42
+      |   |  timestamp = 162071390
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 207
+      |   |  timestamp = 162521636
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 103
+      |   |  timestamp = 163115204
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 228
+      |   |  timestamp = 163571535
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 307
+      |   |  timestamp = 164165292
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 158
+      |   |  timestamp = 164606927
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 229
+      |   |  timestamp = 165199037
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 37
+      |   |  timestamp = 165645324
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 96
+      |   |  timestamp = 166239895
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 51
+      |   |  timestamp = 167170327
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 48
+      |   |  timestamp = 167279489
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 60
+      |   |  timestamp = 169427576
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 273
+      |   |  timestamp = 168320789
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 45
+      |   |  timestamp = 171656192
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 47
+      |   |  timestamp = 169353735
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 261
+      |   |  timestamp = 173880880
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 50
+      |   |  timestamp = 170393735
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 189
+      |   |  timestamp = 176137504
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 54
+      |   |  tdelta    = 819812
+      |   |  timestamp = 171434574
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 236
+      |   |  timestamp = 177934850
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 27
+      |   |  tdelta    = 947251
+      |   |  timestamp = 172471670
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 279
+      |   |  timestamp = 178775967
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 40
+      |   |  tdelta    = 1048906
+      |   |  timestamp = 173509224
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 64
+      |   |  timestamp = 179799158
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 45
+      |   |  tdelta    = 1149619
+      |   |  timestamp = 174565508
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 70
+      |   |  timestamp = 186589714
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 53
+      |   |  tdelta    = 1832704
+      |   |  timestamp = 180782854
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 94
+      |   |  timestamp = 187435887
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 62
+      |   |  tdelta    = 1932290
+      |   |  timestamp = 181815661
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 83
+      |   |  timestamp = 188386519
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 23
+      |   |  tdelta    = 890153
+      |   |  timestamp = 182867874
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 69
+      |   |  timestamp = 189257485
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 32
+      |   |  tdelta    = 993375
+      |   |  timestamp = 183903407
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 92
+      |   |  timestamp = 190182233
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 42
+      |   |  tdelta    = 1083058
+      |   |  timestamp = 184949675
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 125
+      |   |  timestamp = 198159541
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 49
+      |   |  tdelta    = 1800818
+      |   |  timestamp = 192224002
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 215
+      |   |  timestamp = 199153125
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 58
+      |   |  tdelta    = 1919627
+      |   |  timestamp = 193255452
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 49
+      |   |  timestamp = 200165570
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 19
+      |   |  tdelta    = 892650
+      |   |  timestamp = 194289147
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 928
+      |   |  timestamp = 200959605
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 33
+      |   |  tdelta    = 1077256
+      |   |  timestamp = 195327737
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 47
+      |   |  timestamp = 202799871
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 6
+      |   |  tdelta    = 1282023
+      |   |  timestamp = 197412008
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 142
+      |   |  timestamp = 202897240
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 1
+      |   |  tdelta    = 251666
+      |   |  timestamp = 198444055
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 68
+      |   |  timestamp = 202974021
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 6641
+      |   |  timestamp = 199606452
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 39
+      |   |  timestamp = 202976040
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 253
+      |   |  timestamp = 200518439
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 40
+      |   |  timestamp = 202977939
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 101
+      |   |  timestamp = 201573473
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 34
+      |   |  timestamp = 202979001
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 348
+      |   |  timestamp = 202617798
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 397
+      |   |  timestamp = 203063872
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 42
+      |   |  timestamp = 203657992
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 41
+      |   |  timestamp = 204182890
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 43
+      |   |  timestamp = 204777431
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 46
+      |   |  timestamp = 205240413
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 43
+      |   |  timestamp = 205834307
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 35
+      |   |  timestamp = 206310222
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 45
+      |   |  timestamp = 206905149
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 33
+      |   |  timestamp = 207368906
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 45
+      |   |  timestamp = 207963529
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 46
+      |   |  timestamp = 208406351
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 41
+      |   |  timestamp = 209000797
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 36
+      |   |  timestamp = 209432187
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 38
+      |   |  timestamp = 210027103
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 242
+      |   |  timestamp = 210481371
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 61
+      |   |  timestamp = 211076177
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 48
+      |   |  timestamp = 211521660
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 41
+      |   |  timestamp = 212115743
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
+got a packet
+###[ Ethernet ]### 
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 14
+     tos       = 0x0
+     len       = 69
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x5ca5
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]### 
+      |  copy_flag = 0
+      |  optclass  = control
+      |  option    = 31
+      |  length    = 36
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |  tdelta    = 38
+      |   |  timestamp = 212555497
+      |   |###[ SwitchTrace ]### 
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+      |   |  tdelta    = 139
+      |   |  timestamp = 213148214
+###[ UDP ]### 
+        sport     = 1234
+        dport     = 4321
+        len       = 13
+        chksum    = 0x8f49
+###[ Raw ]### 
+           load      = 'heloo'
+
